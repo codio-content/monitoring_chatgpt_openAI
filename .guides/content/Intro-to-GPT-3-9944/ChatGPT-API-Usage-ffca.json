@@ -1,0 +1,17 @@
+{
+	"id": "ffca9250-ad0a-180c-e082-b32359e72123",
+	"title": "ChatGPT API Usage",
+	"files": [
+		{
+			"path": "temp.py",
+			"action": "open"
+		}
+	],
+	"path": [],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "",
+	"layout": "2-panels"
+}

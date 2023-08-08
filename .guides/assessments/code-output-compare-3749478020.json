@@ -1,0 +1,55 @@
+{
+	"type": "code-output-compare",
+	"taskId": "code-output-compare-3749478020",
+	"source": {
+		"name": "Code ",
+		"showName": false,
+		"instructions": "Click the button below when ready to submit your code.",
+		"command": "python .guides/secure/GradedEX.py",
+		"preExecuteCommand": "",
+		"options": {
+			"timeout": 30,
+			"ignoreCase": false,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": true
+		},
+		"guidance": "```python\nimport time\n\ndef Generate(prompts):\n    responses = []\n\n    for prompt in prompts:\n        start_time = time.time()\n        response = openai.Completion.create(\n            engine=\"text-davinci-002\",  # Select the engine\n            prompt=prompt,\n            max_tokens=100  # Limit the response length\n        )\n        end_time = time.time()\n        time_taken = end_time - start_time\n\n        # Store the generated response and the time taken\n        responses.append((response.choices[0].text.strip(), time_taken))\n\n    return responses\n```",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"points": 20,
+		"showExpectedAnswer": true,
+		"arePartialPointsAllowed": false,
+		"sequence": [
+			{
+				"arguments": "",
+				"input": "",
+				"output": "All tests passed!\n",
+				"showFeedback": false,
+				"feedback": ""
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			],
+			"files": [
+				"exerc.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "exerc.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,62 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3928253882",
+	"source": {
+		"name": "response time",
+		"showName": false,
+		"instructions": "**Which Python module can be used to measure the response time of an API call?**",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "802a782d-170b-ad19-dd52-2cd0dab96500",
+				"correct": false,
+				"answer": "cProfile"
+			},
+			{
+				"_id": "cffb2e89-caee-d603-29ce-3aae70687f4a",
+				"correct": true,
+				"answer": "Time"
+			},
+			{
+				"_id": "8a0f89f2-dc69-42fd-ff5a-9ef2050d72c4",
+				"correct": false,
+				"answer": "Loggly"
+			},
+			{
+				"_id": "7324d23b-03af-be36-51b1-cc41bfe455b1",
+				"correct": false,
+				"answer": "Splunk"
+			}
+		],
+		"guidance": "The time module is a built-in Python module that can be used to measure the response time of an API call. It allows you to measure the elapsed time between making the API call and receiving the response, providing insights into the performance of the API.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"temp.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "temp.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

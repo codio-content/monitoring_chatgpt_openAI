@@ -1,0 +1,57 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-604413631",
+	"source": {
+		"name": "difference between using `openai.Completion.create`",
+		"showName": false,
+		"instructions": "**What is the difference between using `openai.Completion.create` and `openai.ChatCompletion.create`?**",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "cd12c767-e869-76e9-85ab-8eaa3fd7dc99",
+				"correct": false,
+				"answer": "There is no difference; both methods can be used interchangeably."
+			},
+			{
+				"_id": "2ef2aa0d-9d1b-427d-3dbe-657d17823b6b",
+				"correct": true,
+				"answer": "`openai.Completion.create` is used for generating text completions without a conversational context, while `openai.ChatCompletion.create` is used specifically for generating responses in a conversational context."
+			},
+			{
+				"_id": "46ae03ba-9e01-8d70-1e82-86beb158b77b",
+				"correct": false,
+				"answer": "`openai.ChatCompletion.create` is used for generating text completions without a conversational context, while `openai.Completion.create` is used specifically for generating responses in a conversational context"
+			}
+		],
+		"guidance": "`openai.Completion.creat`e is used for generating text completions without a conversational context, while `openai.ChatCompletion.create` is used specifically for generating responses in a conversational context, making it easier to build chatbots and other conversational applications.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"temp.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "temp.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

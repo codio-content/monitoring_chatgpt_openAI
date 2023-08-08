@@ -1,0 +1,62 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2853382473",
+	"source": {
+		"name": "ChatGPT API models",
+		"showName": false,
+		"instructions": "**What is one reason to choose a smaller model with fewer parameters when using the ChatGPT API?**",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "eebc2517-4d9c-d7a0-ec1a-7db5faade73d",
+				"correct": false,
+				"answer": "Smaller models generate more complex responses."
+			},
+			{
+				"_id": "5313ed4c-0b5e-2310-43e5-9ae77af092f4",
+				"correct": false,
+				"answer": "Smaller models handle a wider range of input types."
+			},
+			{
+				"_id": "309d1c84-0838-70c1-fbca-12dbe78fd0a7",
+				"correct": true,
+				"answer": "Smaller models generally generate responses more quickly and with lower latency."
+			},
+			{
+				"_id": "5040e519-eb7e-292c-d17a-19eee608496c",
+				"correct": false,
+				"answer": "Smaller models are more accurate at tasks requiring reasoning."
+			}
+		],
+		"guidance": "Smaller models with fewer parameters generally generate responses more quickly and with lower latency, making them more suitable for applications where speed and low latency are important considerations.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"temp.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "temp.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

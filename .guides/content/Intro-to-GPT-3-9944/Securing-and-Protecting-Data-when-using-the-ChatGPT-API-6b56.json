@@ -1,0 +1,21 @@
+{
+	"id": "6b569aa0-e393-2b5f-fcbb-71858c2dc24d",
+	"title": "Securing and Protecting Data when using the ChatGPT API",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "TestSecure.py",
+			"action": "open"
+		}
+	],
+	"path": [],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "",
+	"layout": ""
+}
